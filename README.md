@@ -11,6 +11,12 @@ Der AUSCOM Trading Bot ist ein automatisiertes Handelssystem, das auf der cAlgo 
 
 Um den AUSCOM Trading Bot zu verwenden, müssen Sie ihn in Ihre cAlgo Plattform importieren. Folgen Sie dazu den Anweisungen in der cAlgo Dokumentation.
 
+INFO LINK : https://help.ctrader.com/ctrader-automate/creating-and-running-a-cbot/#introduction
+
+## BOT TESTEN und OPTIEMIEREN 
+
+INFO LINK : https://help.ctrader.com/ctrader-automate/backtesting-and-optimizing-cbots/
+
 ## Konfiguration
 
 Der Bot hat eine Reihe von Parametern, die Sie an Ihre Handelsstrategie anpassen können. Hier sind einige der wichtigsten Parameter:
