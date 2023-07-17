@@ -1,0 +1,442 @@
+[
+  {
+    "Flags": "Robot",
+    "Guid": "00000000-0000-0000-0000-000000000000",
+    "Group": "Custom",
+    "FriendlyName": "SamplecBot",
+    "ShortName": null,
+    "TypeName": "cAlgo.Robots.SamplecBot",
+    "AssemblyName": "Auscom Trading BOT 1.0, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "TimeZone": "UTC",
+    "IsOverlay": false,
+    "ScalePrecision": null,
+    "Levels": [],
+    "Video": null,
+    "Lines": [],
+    "Clouds": [],
+    "Parameters": [
+      {
+        "MinValue": 0.01,
+        "MaxValue": 1.7976931348623157E+308,
+        "Step": 0.1,
+        "DefaultValue": 0.5,
+        "ParameterType": "Double",
+        "PropertyName": "BaseQuantity",
+        "FriendlyName": "1-Base Quantity (Lots)",
+        "GroupName": "Volume"
+      },
+      {
+        "DefaultValue": "My Order",
+        "ParameterType": "String",
+        "PropertyName": "LabelName",
+        "FriendlyName": "2-Label Name",
+        "GroupName": "Volume"
+      },
+      {
+        "DefaultValue": true,
+        "ParameterType": "Boolean",
+        "PropertyName": "ActivateShort",
+        "FriendlyName": "Short Aktivieren",
+        "GroupName": "Volume"
+      },
+      {
+        "DefaultValue": true,
+        "ParameterType": "Boolean",
+        "PropertyName": "ActivateLong",
+        "FriendlyName": "Long Aktivieren",
+        "GroupName": "Volume"
+      },
+      {
+        "MinValue": -2147483648,
+        "MaxValue": 2147483647,
+        "Step": 1,
+        "DefaultValue": 90,
+        "ParameterType": "Integer",
+        "PropertyName": "ShortTakeProfitInPips",
+        "FriendlyName": "S1--Take Profit (Pips)",
+        "GroupName": "Short Value TP/SL/TSL"
+      },
+      {
+        "MinValue": -2147483648,
+        "MaxValue": 2147483647,
+        "Step": 1,
+        "DefaultValue": 15,
+        "ParameterType": "Integer",
+        "PropertyName": "ShortActivateTrailingStopAtProfitInPips",
+        "FriendlyName": "S2-Trailing Stop at Profit (Pips)",
+        "GroupName": "Short Value TP/SL/TSL"
+      },
+      {
+        "MinValue": -2147483648,
+        "MaxValue": 2147483647,
+        "Step": 1,
+        "DefaultValue": 15,
+        "ParameterType": "Integer",
+        "PropertyName": "ShortTrailingStopInPips",
+        "FriendlyName": "S3-Trailing Stop (Pips)",
+        "GroupName": "Short Value TP/SL/TSL"
+      },
+      {
+        "MinValue": -2147483648,
+        "MaxValue": 2147483647,
+        "Step": 1,
+        "DefaultValue": 51,
+        "ParameterType": "Integer",
+        "PropertyName": "ShortUnconditionalStopLossInPips",
+        "FriendlyName": "S4-Stop Loss (Pips)",
+        "GroupName": "Short Value TP/SL/TSL"
+      },
+      {
+        "DefaultValue": true,
+        "ParameterType": "Boolean",
+        "PropertyName": "ShortSLJaNein",
+        "FriendlyName": "Activate First SL",
+        "GroupName": "Short SAVE SL"
+      },
+      {
+        "MinValue": -2147483648,
+        "MaxValue": 2147483647,
+        "Step": 1,
+        "DefaultValue": 15,
+        "ParameterType": "Integer",
+        "PropertyName": "ShortActivateSaveStopAtProfitInPips",
+        "FriendlyName": "S5-Safe SL at Profit (Pips)",
+        "GroupName": "Short SAVE SL"
+      },
+      {
+        "MinValue": -2147483648,
+        "MaxValue": 2147483647,
+        "Step": 1,
+        "DefaultValue": 15,
+        "ParameterType": "Integer",
+        "PropertyName": "ShortSaveStopInPips",
+        "FriendlyName": "S-6Safe SL Stop (Pips)",
+        "GroupName": "Short SAVE SL"
+      },
+      {
+        "MinValue": -2147483648,
+        "MaxValue": 2147483647,
+        "Step": 1,
+        "DefaultValue": 68,
+        "ParameterType": "Integer",
+        "PropertyName": "LongTakeProfitInPips",
+        "FriendlyName": "L1-Take Profit (Pips)",
+        "GroupName": "Long Value TP/SL/TSL"
+      },
+      {
+        "MinValue": -2147483648,
+        "MaxValue": 2147483647,
+        "Step": 1,
+        "DefaultValue": 45,
+        "ParameterType": "Integer",
+        "PropertyName": "LongActivateTrailingStopAtProfitInPips",
+        "FriendlyName": "L2-Trailing Stop at Profit (Pips)",
+        "GroupName": "Long Value TP/SL/TSL"
+      },
+      {
+        "MinValue": -2147483648,
+        "MaxValue": 2147483647,
+        "Step": 1,
+        "DefaultValue": 15,
+        "ParameterType": "Integer",
+        "PropertyName": "LongTrailingStopInPips",
+        "FriendlyName": "L3-Trailing Stop (Pips)",
+        "GroupName": "Long Value TP/SL/TSL"
+      },
+      {
+        "MinValue": -2147483648,
+        "MaxValue": 2147483647,
+        "Step": 1,
+        "DefaultValue": 47,
+        "ParameterType": "Integer",
+        "PropertyName": "LongUnconditionalStopLossInPips",
+        "FriendlyName": "L4-Stop Loss (Pips)",
+        "GroupName": "Long Value TP/SL/TSL"
+      },
+      {
+        "DefaultValue": true,
+        "ParameterType": "Boolean",
+        "PropertyName": "LongtSLJaNein",
+        "FriendlyName": "Activate First SL",
+        "GroupName": "Long SAVE SL"
+      },
+      {
+        "MinValue": -2147483648,
+        "MaxValue": 2147483647,
+        "Step": 1,
+        "DefaultValue": 7,
+        "ParameterType": "Integer",
+        "PropertyName": "LongActivateSaveStopAtProfitInPips",
+        "FriendlyName": "L5-Save SL at Profit (Pips)",
+        "GroupName": "Long SAVE SL"
+      },
+      {
+        "MinValue": -2147483648,
+        "MaxValue": 2147483647,
+        "Step": 1,
+        "DefaultValue": 3,
+        "ParameterType": "Integer",
+        "PropertyName": "LongSaveStopInPips",
+        "FriendlyName": "L6-Save Stop (Pips)",
+        "GroupName": "Long SAVE SL"
+      },
+      {
+        "MinValue": -2147483648,
+        "MaxValue": 2147483647,
+        "Step": 1,
+        "DefaultValue": -1,
+        "ParameterType": "Integer",
+        "PropertyName": "ShortMaFastPeriods",
+        "FriendlyName": "MA Fast Periods",
+        "GroupName": "Short Value"
+      },
+      {
+        "MinValue": -2147483648,
+        "MaxValue": 2147483647,
+        "Step": 1,
+        "DefaultValue": 18,
+        "ParameterType": "Integer",
+        "PropertyName": "ShortMaSlowPeriods",
+        "FriendlyName": "MA Slow Periods",
+        "GroupName": "Short Value"
+      },
+      {
+        "MinValue": -2147483648,
+        "MaxValue": 2147483647,
+        "Step": 1,
+        "DefaultValue": 7,
+        "ParameterType": "Integer",
+        "PropertyName": "ShortMacdLongCycle",
+        "FriendlyName": "MACD Long Cycle",
+        "GroupName": "Short Value"
+      },
+      {
+        "MinValue": -2147483648,
+        "MaxValue": 2147483647,
+        "Step": 1,
+        "DefaultValue": 5,
+        "ParameterType": "Integer",
+        "PropertyName": "ShortMacdShortCycle",
+        "FriendlyName": "MACD Short Cycle",
+        "GroupName": "Short Value"
+      },
+      {
+        "MinValue": -2147483648,
+        "MaxValue": 2147483647,
+        "Step": 1,
+        "DefaultValue": 9,
+        "ParameterType": "Integer",
+        "PropertyName": "ShortMacdSignalPeriods",
+        "FriendlyName": "MACD Signal Periods",
+        "GroupName": "Short Value"
+      },
+      {
+        "MinValue": -2147483648,
+        "MaxValue": 2147483647,
+        "Step": 1,
+        "DefaultValue": 16,
+        "ParameterType": "Integer",
+        "PropertyName": "ShortRsiPeriods",
+        "FriendlyName": "RSI Periods",
+        "GroupName": "Short Value"
+      },
+      {
+        "MinValue": -2147483648,
+        "MaxValue": 2147483647,
+        "Step": 1,
+        "DefaultValue": 13,
+        "ParameterType": "Integer",
+        "PropertyName": "ShortStochasticPeriods",
+        "FriendlyName": "Stochastic Periods",
+        "GroupName": "Short Value"
+      },
+      {
+        "MinValue": -2147483648,
+        "MaxValue": 2147483647,
+        "Step": 1,
+        "DefaultValue": 9,
+        "ParameterType": "Integer",
+        "PropertyName": "ShortStochasticKSlowPeriods",
+        "FriendlyName": "Stochastic K Slow Periods",
+        "GroupName": "Short Value"
+      },
+      {
+        "MinValue": -2147483648,
+        "MaxValue": 2147483647,
+        "Step": 1,
+        "DefaultValue": 5,
+        "ParameterType": "Integer",
+        "PropertyName": "ShortStochasticDSlowPeriods",
+        "FriendlyName": "Stochastic D Slow Periods",
+        "GroupName": "Short Value"
+      },
+      {
+        "MinValue": -2147483648,
+        "MaxValue": 2147483647,
+        "Step": 1,
+        "DefaultValue": 22,
+        "ParameterType": "Integer",
+        "PropertyName": "ShortCciPeriods",
+        "FriendlyName": "CCI Periods",
+        "GroupName": "Short Value"
+      },
+      {
+        "MinValue": -2147483648,
+        "MaxValue": 2147483647,
+        "Step": 1,
+        "DefaultValue": 15,
+        "ParameterType": "Integer",
+        "PropertyName": "ShortMomentumPeriods",
+        "FriendlyName": "Momentum Periods",
+        "GroupName": "Short Value"
+      },
+      {
+        "MinValue": -2147483648,
+        "MaxValue": 2147483647,
+        "Step": 1,
+        "DefaultValue": 9,
+        "ParameterType": "Integer",
+        "PropertyName": "LongMaFastPeriods",
+        "FriendlyName": "MA Fast Periods",
+        "GroupName": "Long Value"
+      },
+      {
+        "MinValue": -2147483648,
+        "MaxValue": 2147483647,
+        "Step": 1,
+        "DefaultValue": 21,
+        "ParameterType": "Integer",
+        "PropertyName": "LongMaSlowPeriods",
+        "FriendlyName": "MA Slow Periods",
+        "GroupName": "Long Value"
+      },
+      {
+        "MinValue": -2147483648,
+        "MaxValue": 2147483647,
+        "Step": 1,
+        "DefaultValue": 26,
+        "ParameterType": "Integer",
+        "PropertyName": "LongMacdLongCycle",
+        "FriendlyName": "MACD Long Cycle",
+        "GroupName": "Long Value"
+      },
+      {
+        "MinValue": -2147483648,
+        "MaxValue": 2147483647,
+        "Step": 1,
+        "DefaultValue": 12,
+        "ParameterType": "Integer",
+        "PropertyName": "LongMacdShortCycle",
+        "FriendlyName": "MACD Short Cycle",
+        "GroupName": "Long Value"
+      },
+      {
+        "MinValue": -2147483648,
+        "MaxValue": 2147483647,
+        "Step": 1,
+        "DefaultValue": 9,
+        "ParameterType": "Integer",
+        "PropertyName": "LongMacdSignalPeriods",
+        "FriendlyName": "MACD Signal Periods",
+        "GroupName": "Long Value"
+      },
+      {
+        "MinValue": -2147483648,
+        "MaxValue": 2147483647,
+        "Step": 1,
+        "DefaultValue": 14,
+        "ParameterType": "Integer",
+        "PropertyName": "LongRsiPeriods",
+        "FriendlyName": "RSI Periods",
+        "GroupName": "Long Value"
+      },
+      {
+        "MinValue": -2147483648,
+        "MaxValue": 2147483647,
+        "Step": 1,
+        "DefaultValue": 14,
+        "ParameterType": "Integer",
+        "PropertyName": "LongStochasticPeriods",
+        "FriendlyName": "Stochastic Periods",
+        "GroupName": "Long Value"
+      },
+      {
+        "MinValue": -2147483648,
+        "MaxValue": 2147483647,
+        "Step": 1,
+        "DefaultValue": 3,
+        "ParameterType": "Integer",
+        "PropertyName": "LongStochasticKSlowPeriods",
+        "FriendlyName": "Stochastic K Slow Periods",
+        "GroupName": "Long Value"
+      },
+      {
+        "MinValue": -2147483648,
+        "MaxValue": 2147483647,
+        "Step": 1,
+        "DefaultValue": 3,
+        "ParameterType": "Integer",
+        "PropertyName": "LongStochasticDSlowPeriods",
+        "FriendlyName": "Stochastic D Slow Periods",
+        "GroupName": "Long Value"
+      },
+      {
+        "MinValue": -2147483648,
+        "MaxValue": 2147483647,
+        "Step": 1,
+        "DefaultValue": 20,
+        "ParameterType": "Integer",
+        "PropertyName": "LongCciPeriods",
+        "FriendlyName": "CCI Periods",
+        "GroupName": "Long Value"
+      },
+      {
+        "MinValue": -2147483648,
+        "MaxValue": 2147483647,
+        "Step": 1,
+        "DefaultValue": 14,
+        "ParameterType": "Integer",
+        "PropertyName": "LongMomentumPeriods",
+        "FriendlyName": "Momentum Periods",
+        "GroupName": "Long Value"
+      },
+      {
+        "MinValue": -2147483648,
+        "MaxValue": 2147483647,
+        "Step": 1,
+        "DefaultValue": 13,
+        "ParameterType": "Integer",
+        "PropertyName": "MaxSpreadInPips",
+        "FriendlyName": "Max Spread (Pips)",
+        "GroupName": "==== COMMON ===="
+      },
+      {
+        "MinValue": -2147483648,
+        "MaxValue": 2147483647,
+        "Step": 1,
+        "DefaultValue": 8,
+        "ParameterType": "Integer",
+        "PropertyName": "MaxPositions",
+        "FriendlyName": "Max Positions",
+        "GroupName": "==== COMMON ===="
+      },
+      {
+        "MinValue": -2147483648,
+        "MaxValue": 2147483647,
+        "Step": 1,
+        "DefaultValue": 4,
+        "ParameterType": "Integer",
+        "PropertyName": "PeriodNextTrade",
+        "FriendlyName": "Period Next Trade",
+        "GroupName": "==== COMMON ===="
+      }
+    ],
+    "Capabilities": [
+      {
+        "CapabilityType": "FullTrust"
+      }
+    ],
+    "CustomAttributes": [],
+    "Sets": []
+  }
+]

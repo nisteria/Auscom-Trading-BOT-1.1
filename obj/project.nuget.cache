@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "gNRiPWxoop/4W1qw/84DouOiZbRbxdvNsON08WyO/s8ioIxou5i2L2OjmTCwKTsSbRdYRzLUUysTV4oWvpbKlQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lechd\\Documents\\cAlgo\\Sources\\Robots\\Auscom Trading BOT 1.0\\Auscom Trading BOT 1.0\\Auscom Trading BOT 1.0.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lechd\\.nuget\\packages\\ctrader.automate\\1.0.8\\ctrader.automate.1.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

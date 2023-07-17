@@ -1,0 +1,12 @@
+C:\Users\lechd\Documents\cAlgo\Sources\Robots\Auscom Trading BOT 1.0\Auscom Trading BOT 1.0\obj\Release\net6.0\Auscom Trading BOT 1.0.csproj.AssemblyReference.cache
+C:\Users\lechd\Documents\cAlgo\Sources\Robots\Auscom Trading BOT 1.0\Auscom Trading BOT 1.0\obj\Release\net6.0\Auscom Trading BOT 1.0.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lechd\Documents\cAlgo\Sources\Robots\Auscom Trading BOT 1.0\Auscom Trading BOT 1.0\obj\Release\net6.0\Auscom Trading BOT 1.0.AssemblyInfoInputs.cache
+C:\Users\lechd\Documents\cAlgo\Sources\Robots\Auscom Trading BOT 1.0\Auscom Trading BOT 1.0\obj\Release\net6.0\Auscom Trading BOT 1.0.AssemblyInfo.cs
+C:\Users\lechd\Documents\cAlgo\Sources\Robots\Auscom Trading BOT 1.0\Auscom Trading BOT 1.0\obj\Release\net6.0\Auscom Trading BOT 1.0.csproj.CoreCompileInputs.cache
+C:\Users\lechd\Documents\cAlgo\Sources\Robots\Auscom Trading BOT 1.0\Auscom Trading BOT 1.0\bin\Release\net6.0\Auscom Trading BOT 1.0.deps.json
+C:\Users\lechd\Documents\cAlgo\Sources\Robots\Auscom Trading BOT 1.0\Auscom Trading BOT 1.0\bin\Release\net6.0\Auscom Trading BOT 1.0.dll
+C:\Users\lechd\Documents\cAlgo\Sources\Robots\Auscom Trading BOT 1.0\Auscom Trading BOT 1.0\bin\Release\net6.0\Auscom Trading BOT 1.0.pdb
+C:\Users\lechd\Documents\cAlgo\Sources\Robots\Auscom Trading BOT 1.0\Auscom Trading BOT 1.0\obj\Release\net6.0\Auscom Trading BOT 1.0.dll
+C:\Users\lechd\Documents\cAlgo\Sources\Robots\Auscom Trading BOT 1.0\Auscom Trading BOT 1.0\obj\Release\net6.0\refint\Auscom Trading BOT 1.0.dll
+C:\Users\lechd\Documents\cAlgo\Sources\Robots\Auscom Trading BOT 1.0\Auscom Trading BOT 1.0\obj\Release\net6.0\Auscom Trading BOT 1.0.pdb
+C:\Users\lechd\Documents\cAlgo\Sources\Robots\Auscom Trading BOT 1.0\Auscom Trading BOT 1.0\obj\Release\net6.0\ref\Auscom Trading BOT 1.0.dll

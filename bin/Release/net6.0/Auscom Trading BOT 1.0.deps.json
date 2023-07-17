@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Auscom Trading BOT 1.0/1.0.0": {
+        "dependencies": {
+          "cTrader.Automate": "1.0.8"
+        },
+        "runtime": {
+          "Auscom Trading BOT 1.0.dll": {}
+        }
+      },
+      "cTrader.Automate/1.0.8": {
+        "runtime": {
+          "lib/net6.0/cAlgo.API.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Auscom Trading BOT 1.0/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "cTrader.Automate/1.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Inu3Q0XEMNNSm1LLxtJ9qk3TTb6N4Kms8HRt4A/GV+6MegCWWLEB81XvM5h6xoUfU1FyX+Ag9f2ewY0G4afSXg==",
+      "path": "ctrader.automate/1.0.8",
+      "hashPath": "ctrader.automate.1.0.8.nupkg.sha512"
+    }
+  }
+}

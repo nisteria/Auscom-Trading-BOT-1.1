@@ -1,0 +1,4 @@
+C:\Users\lechd\Documents\cAlgo\Sources\Robots\Auscom Trading BOT 1.0\Auscom Trading BOT 1.0\bin\Release\net6.0\publish\Auscom Trading BOT 1.0.dll
+C:\Users\lechd\Documents\cAlgo\Sources\Robots\Auscom Trading BOT 1.0\Auscom Trading BOT 1.0\bin\Release\net6.0\publish\Auscom Trading BOT 1.0.deps.json
+C:\Users\lechd\Documents\cAlgo\Sources\Robots\Auscom Trading BOT 1.0\Auscom Trading BOT 1.0\bin\Release\net6.0\publish\Auscom Trading BOT 1.0.pdb
+C:\Users\lechd\Documents\cAlgo\Sources\Robots\Auscom Trading BOT 1.0\Auscom Trading BOT 1.0\bin\Release\net6.0\publish\cAlgo.API.dll
