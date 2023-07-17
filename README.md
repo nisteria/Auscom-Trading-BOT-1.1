@@ -53,7 +53,7 @@ Der Handel auf Finanzmärkten birgt Risiken, einschließlich des Risikos des Ver
 
 ## Unterstützung
 
-Wenn Sie Fragen oder Probleme haben, senden Sie bitte eine E-Mail an office@auscom.at.
+Wenn Sie Fragen oder Probleme haben, senden Sie bitte eine WhatsApp +43 664 44 46 396.
 
 
 
